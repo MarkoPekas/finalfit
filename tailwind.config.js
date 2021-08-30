@@ -1,9 +1,22 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  purge: [],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        'sexy': '#66F',
+      },
+      backgroundColor: {
+        'sexy': '#121212',
+        'layer': '#242424',
+        'lightopacity': 'rgba(255, 255, 255, .6)',
+        'darkopacity': 'rgba(0, 0, 0, .6)',
+      },
+      transitionDelay: {
+        '0': '0ms',
+        '3000': '3000ms',
+       }
+    },
   },
   variants: {
     extend: {},

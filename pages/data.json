@@ -1,0 +1,1976 @@
+{
+  "characters": {
+    "todoroki": {
+      "name": "Todoroki Workout",
+      "img": "/covers/todoroki.jpg",
+      "workout": [
+        [
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],[
+          "Supermen",
+          30,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],[
+          "Supermen",
+          30,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Squat Jumps",
+          10,
+          "reps"
+        ],[
+          "Pushups",
+          50,
+          "reps"
+        ]
+      ]
+    },"bakugo": {
+      "name": "Bakugo Workout",
+      "img": "/covers/bakugo.png",
+      "workout": [
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],[
+          "Dips",
+          20,
+          "reps"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],[
+          "Plank",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          60,
+          "sec"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Squat Jumps",
+          10,
+          "reps"
+        ],[
+          "Pushups",
+          20,
+          "reps"
+        ],[
+          "Dips",
+          20,
+          "reps"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Push Ups",
+          9,
+          "reps"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Wide Grip Push Ups",
+          8,
+          "reps"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Wide Grip Push Ups",
+          6,
+          "reps"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Push Ups",
+          5,
+          "reps"
+        ]
+      ]
+    },"ochako": {
+      "name": "Ochako Workout",
+      "img": "/covers/ochako.jpg",
+      "workout": [
+        [
+          "Bicycle Crunches",
+          60,
+          "sec"
+        ],[
+          "Leg Raises",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Bicycle Crunches",
+          60,
+          "sec"
+        ],[
+          "Leg Raises",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Bicycle Crunches",
+          60,
+          "sec"
+        ],[
+          "Leg Raises",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Burpies",
+          15,
+          "reps"
+        ],[
+          "Knee Pushups",
+          15,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Knee Pushups",
+          15,
+          "reps"
+        ]
+      ]
+    },"wrath": {
+      "name": "Wrath",
+      "img": "/covers/wrath.jpg",
+      "workout": [
+        [
+          "Jumping jacks",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          30,
+          "reps"
+        ],[
+          "Rest",
+          20,
+          "sec"
+        ],[
+          "Squat Jumps",
+          30,
+          "reps"
+        ],[
+          "Rest",
+          20,
+          "sec"
+        ],[
+          "Squat Jumps",
+          30,
+          "reps"
+        ],[
+          "Rest",
+          20,
+          "sec"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          20,
+          "sec"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          20,
+          "sec"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ]
+      ]
+    },"greed": {
+      "name": "Greed",
+      "img": "/covers/greed.jpg",
+      "workout": [
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Dips",
+          15,
+          "reps"
+        ],
+        [
+          "Supermen",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "High Knees",
+          30,
+          "sec"
+        ],
+        [
+          "Bicycle Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          15,
+          "reps"
+        ],[
+          "Supermen",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "High Knees",
+          30,
+          "sec"
+        ],
+        [
+          "Bicycle Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ]
+      ]
+    },"envy": {
+      "name": "Envy",
+      "img": "/covers/envy.png",
+      "workout": [
+        [
+          "Bicycle Crunches",
+          45,
+          "sec"
+        ],[
+          "Leg Raises",
+          45,
+          "sec"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Bicycle Crunches",
+          45,
+          "sec"
+        ],[
+          "Leg Raises",
+          45,
+          "sec"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Bicycle Crunches",
+          45,
+          "sec"
+        ],[
+          "Leg Raises",
+          45,
+          "sec"
+        ],[
+          "Rest",
+          10,
+          "sec"
+        ],[
+          "Burpies",
+          15,
+          "reps"
+        ]
+      ]
+    },"sloth": {
+      "name": "Sloth",
+      "img": "/covers/sloth.png",
+      "workout": [
+        [
+          "High Knees",
+          20,
+          "sec"
+        ],
+        [
+          "Lunges",
+          10,
+          "reps"
+        ],
+        [
+          "Squat Jumps",
+          10,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Supermen",
+          10,
+          "reps"
+        ],
+        [
+          "High Knees",
+          20,
+          "sec"
+        ],
+        [
+          "Lunges",
+          10,
+          "reps"
+        ],
+        [
+          "Squat Jumps",
+          10,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Supermen",
+          10,
+          "reps"
+        ]
+      ]
+    },"lust": {
+      "name": "Lust",
+      "img": "/covers/lust.jpg",
+      "workout": [
+        [
+          "Lunges",
+          10,
+          "reps"
+        ],
+        [
+          "Squat Jumps",
+          10,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "High Knees",
+          20,
+          "sec"
+        ],
+        [
+          "Lunges",
+          10,
+          "reps"
+        ],
+        [
+          "Squat Jumps",
+          10,
+          "reps"
+        ],
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Supermen",
+          10,
+          "reps"
+        ]
+      ]
+    },"bakugo2": {
+      "name": "Todoroki Workout",
+      "img": "/covers/todoroki.jpg",
+      "workout": [
+        [
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ]
+      ]
+    },"gluttony": {
+      "name": "Gluttony",
+      "img": "/covers/gluttony.jpg",
+      "workout": [
+        [
+          "Hamstring Stretch",
+          15,
+          "sec"
+        ],[
+          "Seated Hamstring Stretch",
+          15,
+          "sec"
+        ],[
+          "Modified Hurdle Stretch",
+          15,
+          "sec"
+        ],[
+          "Straddle Stretch",
+          15,
+          "sec"
+        ],[
+          "Glutes Seated Twist",
+          15,
+          "sec"
+        ],[
+          "Seated Heart Opener",
+          15,
+          "sec"
+        ],[
+          "Quads Standing Stretch",
+          15,
+          "sec"
+        ],[
+          "Chest Opener",
+          15,
+          "sec"
+        ],[
+          "Triceps Stretch",
+          15,
+          "sec"
+        ]
+      ]
+    },"pride": {
+      "name": "Pride",
+      "img": "/covers/pride.png",
+      "workout": [
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          15,
+          "reps"
+        ],[
+          "High Knees",
+          20,
+          "sec"
+        ],[
+          "Lunges",
+          10,
+          "reps"
+        ],[
+          "Squat Jumps",
+          10,
+          "reps"
+        ],[
+          "Heel Touches",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          10,
+          "reps"
+        ]
+      ]
+    },"naruto": {
+      "name": "Naruto",
+      "img": "/covers/naruto.jpg",
+      "workout": [
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Run",
+          5,
+          "reps"
+        ]
+      ]
+    },"sakura": {
+      "name": "Sakura",
+      "img": "/covers/sakura.jpg",
+      "workout": [
+        [
+          "Knee Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Wall Sit",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Knee Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Wall Sit",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Run",
+          5,
+          "reps"
+        ]
+      ]
+    },"sasuke": {
+      "name": "Sasuke",
+      "img": "/covers/sasuke.jpg",
+      "workout": [
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Pull Ups",
+          5,
+          "reps"
+        ],
+        [
+          "Squats",
+          30,
+          "reps"
+        ],[
+          "Pull Ups",
+          5,
+          "reps"
+        ],
+        [
+          "Burpies",
+          10,
+          "reps"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Wide Grip Push Ups",
+          30,
+          "reps"
+        ]
+      ]
+    },"kakashi": {
+      "name": "Kakashi",
+      "img": "/covers/kakashi.jpg",
+      "workout": [
+        [
+          "Wide Grip Push Ups",
+          15,
+          "reps"
+        ],
+        [
+          "Crunches",
+          30,
+          "sec"
+        ],[
+          "Push Ups",
+          15,
+          "reps"
+        ],
+        [
+          "Pull Ups",
+          5,
+          "reps"
+        ],
+        [
+          "Squats",
+          30,
+          "reps"
+        ],[
+          "Pull Ups",
+          5,
+          "reps"
+        ],
+        [
+          "Burpies",
+          10,
+          "reps"
+        ],
+        [
+          "Leg Raises",
+          30,
+          "reps"
+        ],[
+          "Push Ups",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          30,
+          "reps"
+        ]
+      ]
+    },"rocklee": {
+      "name": "Rock Lee",
+      "img": "/covers/rocklee.png",
+      "workout": [
+        [
+          "Wide Grip Push Ups",
+          15,
+          "reps"
+        ],[
+          "Pushups",
+          15,
+          "reps"
+        ],[
+          "Knee Pushups",
+          15,
+          "reps"
+        ],[
+          "Wide Grip Push Ups",
+          15,
+          "reps"
+        ],[
+          "Pushups",
+          15,
+          "reps"
+        ],[
+          "Knee Pushups",
+          15,
+          "reps"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "Handstand",
+          30,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "Handstand",
+          30,
+          "sec"
+        ]
+      ]
+    },"hinata": {
+      "name": "Hinata",
+      "img": "/covers/hinata.webp",
+      "workout": [
+        [
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ]
+      ]
+    },"kageyama": {
+      "name": "Kageyama",
+      "img": "/covers/kageyama.jpg",
+      "workout": [
+        [
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Wide Grip Push Ups",
+          15,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Squat Jumps",
+          60,
+          "sec"
+        ],[
+          "High Knees",
+          60,
+          "sec"
+        ],[
+          "Wide Grip Push Ups",
+          15,
+          "reps"
+        ],[
+          "Rest",
+          30,
+          "sec"
+        ],[
+          "Lunges",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ]
+      ]
+    },"bleach": {
+      "name": "Bleach",
+      "img": "/covers/bleach.jpg",
+      "workout": [
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Kicks",
+          10,
+          "reps"
+        ],
+        [
+          "Punch",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Kicks",
+          10,
+          "reps"
+        ],
+        [
+          "Punch",
+          10,
+          "reps"
+        ]
+      ]
+    },"mikasa": {
+      "name": "Mikasa",
+      "img": "/covers/mikasa.png",
+      "workout": [
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Dips",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "High Knees",
+          30,
+          "sec"
+        ],
+        [
+          "Bicycle Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ]
+      ]
+    },"ippo": {
+      "name": "Ippo",
+      "img": "/covers/ippo.jpg",
+      "workout": [
+        [
+          "Jumping Jacks",
+          60,
+          "sec"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          20,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ]
+      ]
+    },"saiki": {
+      "name": "Saiki Kuso",
+      "img": "/covers/saiki.png",
+      "workout": [
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ],[
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ]
+      ]
+    },"onepunch": {
+      "name": "OnePunchMan",
+      "img": "/covers/onepunch.png",
+      "workout": [
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Sit Ups",
+          20,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Rest",
+          30,
+          "sec"
+        ],
+        [
+          "Run",
+          5,
+          "reps"
+        ]
+      ]
+    },"deku": {
+      "name": "ONE FOR ALL",
+      "img": "/covers/deku.png",
+      "workout": [
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Plank",
+          30,
+          "sec"
+        ],
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Plank",
+          30,
+          "sec"
+        ]
+      ]
+    },"noone": {
+      "name": "ONE FOR ALL",
+      "img": "/covers/deku.png",
+      "workout": [
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Plank",
+          30,
+          "sec"
+        ],
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Plank",
+          30,
+          "sec"
+        ]
+      ]
+    },"goku": {
+      "name": "SUPER SAIYAN",
+      "img": "/covers/goku.png",
+      "workout": [
+        [
+          "Squats",
+          10,
+          "reps"
+        ],
+        [
+          "Kicks",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ]
+      ]
+    },"demonslayer": {
+      "name": "DEMON SLAYER",
+      "img": "/covers/demonslayer.png",
+      "workout": [
+        [
+          "High Knees",
+          20,
+          "sec"
+        ],
+        [
+          "Lunges",
+          10,
+          "reps"
+        ],
+        [
+          "Squat Jumps",
+          10,
+          "reps"
+        ],
+        [
+          "Mountain Climbers",
+          60,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Wide Grip Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Supermen",
+          10,
+          "reps"
+        ]
+      ]
+    },"aot": {
+      "name": "AOT",
+      "img": "/covers/aot.png",
+      "workout": [
+        [
+          "Jumping Jacks",
+          30,
+          "sec"
+        ],
+        [
+          "Dips",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Supermen",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "High Knees",
+          30,
+          "sec"
+        ],
+        [
+          "Bicycle Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Dips",
+          10,
+          "reps"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          15,
+          "reps"
+        ],
+        [
+          "Squats",
+          20,
+          "reps"
+        ],
+        [
+          "High Knees",
+          30,
+          "sec"
+        ],
+        [
+          "Bicycle Crunches",
+          30,
+          "sec"
+        ],[
+          "Deltoid Stretch",
+          30,
+          "sec"
+        ],
+        [
+          "Chest Opener",
+          30,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ]
+      ]
+    },"hunter": {
+      "name": "HUNTER X HUNTER",
+      "img": "/covers/hunter.png",
+      "workout": [
+        [
+          "Push Ups",
+          10,
+          "reps"
+        ],
+        [
+          "Pull Ups",
+          5,
+          "reps"
+        ],
+        [
+          "Squats",
+          30,
+          "reps"
+        ],
+        [
+          "Burpies",
+          10,
+          "reps"
+        ],
+        [
+          "Leg Raises",
+          15,
+          "reps"
+        ],
+        [
+          "Crunches",
+          30,
+          "sec"
+        ],
+        [
+          "Wide Grip Push Ups",
+          30,
+          "reps"
+        ]
+      ]
+    },"onepiece": {
+      "name": "ONE PIECE",
+      "img": "/covers/onepiece.png",
+      "workout": [
+        [
+          "Hamstring Stretch",
+          15,
+          "sec"
+        ],[
+          "Seated Hamstring Stretch",
+          15,
+          "sec"
+        ],[
+          "Modified Hurdle Stretch",
+          15,
+          "sec"
+        ],[
+          "Straddle Stretch",
+          15,
+          "sec"
+        ],[
+          "Glutes Seated Twist",
+          15,
+          "sec"
+        ],[
+          "Seated Heart Opener",
+          15,
+          "sec"
+        ],[
+          "Quads Standing Stretch",
+          15,
+          "sec"
+        ],[
+          "Chest Opener",
+          15,
+          "sec"
+        ],[
+          "Triceps Stretch",
+          15,
+          "sec"
+        ],[
+          "Squat Jumps",
+          10,
+          "reps"
+        ]
+      ]
+    },"jojo": {
+      "name": "JOJO'S BIZARRE WORKOUT",
+      "img": "/covers/jojo.png",
+      "workout": [
+        [
+          "Mountain Climbers",
+          5,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          5,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          5,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          5,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          5,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          5,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          5,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          5,
+          "sec"
+        ],[
+          "Mountain Climbers",
+          5,
+          "sec"
+        ],
+        [
+          "Push Ups",
+          5,
+          "sec"
+        ],[
+          "Kicks",
+          10,
+          "reps"
+        ],
+        [
+          "Punch",
+          10,
+          "reps"
+        ],[
+          "Kicks",
+          10,
+          "reps"
+        ],
+        [
+          "Punch",
+          10,
+          "reps"
+        ],
+        [
+          "Shadow Box",
+          60,
+          "sec"
+        ],
+        [
+          "Crunches",
+          10,
+          "reps"
+        ]
+      ]
+    },"baki": {
+      "name": "Baki The Grappler",
+      "img": "/covers/baki.jpg",
+      "workout": [
+        [
+          "Squats",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Squats",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "High Knees",
+          30,
+          "sec"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "High Knees",
+          30,
+          "sec"
+        ],[
+          "Push Ups",
+          10,
+          "reps"
+        ],[
+          "High Knees",
+          30,
+          "sec"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          120,
+          "sec"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          120,
+          "sec"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Punch",
+          50,
+          "reps"
+        ],[
+          "Shadow Box",
+          120,
+          "sec"
+        ],[
+          "Supermen",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ],[
+          "Supermen",
+          10,
+          "reps"
+        ],[
+          "Burpies",
+          10,
+          "reps"
+        ]
+
+      ]
+    },"asta": {
+      "name": "Asta",
+      "img": "/covers/asta.jpg",
+      "workout": [
+        [
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          60,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ],[
+          "Rest",
+          15,
+          "sec"
+        ],[
+          "Push Ups",
+          25,
+          "reps"
+        ],[
+          "Sit Ups",
+          25,
+          "reps"
+        ],[
+          "Squats",
+          25,
+          "reps"
+        ]
+      ]
+    }
+  }
+}
