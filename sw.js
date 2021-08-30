@@ -24,8 +24,8 @@ if (typeof importScripts === 'function') {
                     statuses: [0, 200]
                 }),
                 new workbox.expiration.ExpirationPlugin({
-                    maxEntries: 20,
-                    maxAgeSeconds: 12 * 60 * 60
+                    maxEntries: 200,
+                    maxAgeSeconds: 7 * 24 * 60 * 60
                 })
             ]
         }), 'GET' );
