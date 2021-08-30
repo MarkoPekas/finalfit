@@ -1,5 +1,5 @@
-[{
+{
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target" : { "namespace": "android_app", "package_name": "app.netlify.silly_hopper_af3a11.twa",
                 "sha256_cert_fingerprints": ["A6:A1:CC:E0:71:8C:E4:98:A7:AF:12:D4:F6:16:DD:1E:99:89:28:4A:8C:BE:8F:12:C9:62:36:2F:05:71:3E:A4"] }
-}]
+}
