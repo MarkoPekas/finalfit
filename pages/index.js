@@ -33,7 +33,9 @@ export default function Home() {
     }
   }, [])
 
-
+  function adClick(){
+    window.open("//benoopto.com/4/4527203")
+  }
 
   let workouts = jsondata.characters[data].workout;
   let wrows = [];
@@ -74,7 +76,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
         <meta name='description' content='Description' />
         <meta name='keywords' content='Keywords' />
-
+        <script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4526960"></script>
         <link rel="manifest" href="/manifest.json" />
         <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -204,7 +206,17 @@ export default function Home() {
         </div>
 
         
-
+        <div className="w-80 h-32 mt-10 inline-block">
+          <div className="h-full w-full flex-col flex">
+            <div className="flex-1 flex p-2" onClick={()=>adClick()} >
+              <div className="h-full w-28 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"https://images.hdqwalls.com/wallpapers/anime-original-minimalism-p5.jpg"})`}}></div>
+              <div className="flex flex-col justify-center pl-5">
+                <p className="font-semibold text-lg dark:text-gray-50">Try This Cool Game</p>
+                <p className="text-gray-500">Sponsored 😉</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -288,6 +300,18 @@ export default function Home() {
 
         </div>
 
+
+        <div className="w-80 h-32 mt-10 inline-block">
+          <div className="h-full w-full flex-col flex">
+            <div className="flex-1 flex p-2" onClick={()=>adClick()} >
+              <div className="h-full w-28 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"https://wallpapercave.com/wp/wp5165681.jpg"})`}}></div>
+              <div className="flex flex-col justify-center pl-5">
+                <p className="font-semibold text-lg dark:text-gray-50">This Game is Insane</p>
+                <p className="text-gray-500">Sponsored 😲</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Haikyuu!!</h1>

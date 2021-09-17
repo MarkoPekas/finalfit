@@ -20,7 +20,9 @@ export default function Home() {
       document.documentElement.classList.remove('dark')
     }
   }, [])
-
+  function adClick(){
+    window.open("//benoopto.com/4/4527203")
+  }
 
   let workouts = jsondata.characters[data].workout;
   let wrows = [];
@@ -132,6 +134,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"https://thedailybounce.net/wp-content/uploads/2020/06/BG-1024x432.png"})`}} onClick={()=>adClick()} >
+          <h1 className="font-semibold text-2xl text-white mt-3">Try This New Game</h1>
+          <p className="text-base text-white">Sponsored</p>
+        </div>
+
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Amateur</h1>
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/demonslayer.png"})`}} onClick={()=>setData("demonslayer")} >
@@ -146,7 +153,6 @@ export default function Home() {
             <h1 className="font-semibold text-2xl text-white my-3">OnePiece</h1>
           </div>
         </div>
-
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/saiki.png"})`}} onClick={()=>setData("saiki")} >
           <h1 className="font-semibold text-2xl text-white my-3">Saiki Kuso</h1>
         </div>
@@ -155,10 +161,12 @@ export default function Home() {
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/hunter.png"})`}} onClick={()=>setData("hunter")} >
           <h1 className="font-semibold text-2xl text-white my-3">Hunter x Hunter</h1>
         </div>
-      
-     
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/jojo.png"})`}} onClick={()=>setData("jojo")} >
           <h1 className="font-semibold text-2xl text-white my-3">Jojo's Bizzare Workout</h1>
+        </div>
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"https://wowsp-wows-sg.wgcdn.co/static/0.2/images/wows_social_1.jpg"})`}} onClick={()=>adClick()} >
+          <h1 className="font-semibold text-2xl text-white mt-3">Play For Free</h1>
+          <p className="text-base text-white">Sponsored</p>
         </div>
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Elite</h1>
