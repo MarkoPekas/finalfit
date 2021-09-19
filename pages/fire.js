@@ -68,13 +68,18 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
         <meta name="theme-color" content="#66f"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JNYXCDJ3TQ');
-</script>
+<script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JNYXCDJ3TQ', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
       </Head>
 
 
