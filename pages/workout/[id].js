@@ -137,13 +137,18 @@ export default function Home(req) {
         <meta name="theme-color" content="#66f"/>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JNYXCDJ3TQ');
-</script>
+<script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JNYXCDJ3TQ', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
         </Head>
 
         <div className={(hint)?"fixed p-3 top-0 w-full duration-500 delay-500 ease-in-out transform":"fixed p-3 top-0 w-full duration-500 delay-500 ease-in-out transform -translate-y-16 opacity-0"} onClick={() => {setHint(false);localStorage.setItem("hint", 1)}}>
