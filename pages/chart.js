@@ -43,13 +43,18 @@ export default function Home() {
 
     
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JNYXCDJ3TQ');
-</script>
+<script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JNYXCDJ3TQ', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
  </Head>
 
       <main className="flex flex-col w-full p-5">
