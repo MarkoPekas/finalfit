@@ -135,6 +135,15 @@ export default function Home(req) {
         <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
         <meta name="theme-color" content="#66f"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JNYXCDJ3TQ');
+</script>
         </Head>
 
         <div className={(hint)?"fixed p-3 top-0 w-full duration-500 delay-500 ease-in-out transform":"fixed p-3 top-0 w-full duration-500 delay-500 ease-in-out transform -translate-y-16 opacity-0"} onClick={() => {setHint(false);localStorage.setItem("hint", 1)}}>
