@@ -41,7 +41,7 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
         <meta name="theme-color" content="#66f"/>
 
-     <!-- Global site tag (gtag.js) - Google Analytics -->
+    
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
