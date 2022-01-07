@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundColor: {
         'sexy': '#121212',
+        'sexyblue': '#66f',
         'layer': '#242424',
         'lightopacity': 'rgba(255, 255, 255, .6)',
         'darkopacity': 'rgba(0, 0, 0, .6)',
