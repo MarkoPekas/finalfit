@@ -10,6 +10,7 @@ import jsondata from "./data.json"
 import { useRouter } from 'next/router'
 import { register, unregister } from 'next-offline/runtime';
 import { isMobile } from 'react-device-detect';
+import SplashScreen from '../components/splashScreen'
 
 
 
@@ -69,6 +70,7 @@ export default function Mobile() {
 
   return (
     <div className="flex flex-col items-center justify-center py-2 dark:bg-sexy">
+        <SplashScreen/>
       <Head>
         <title>Anime Workout Program</title>
         <meta charset='utf-8' />

@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { AcademicCapIcon } from '@heroicons/react/outline'
 import jsondata from "./data.json"
 import Head from "next/head";
+import SplashScreen from "../components/splashScreen";
 
 export default function Desktop() {
     const [scrollH, setScrollH] = useState(0);
@@ -38,6 +39,7 @@ export default function Desktop() {
 
     return (
         <div className="w-full min-h-screen flex flex-col">
+            <SplashScreen/>
             <Head>
                 <title>Anime Workout Program App</title>
                 <link rel="manifest" href="/manifest.json" />
