@@ -41,7 +41,8 @@ export default function Desktop() {
         <div className="w-full min-h-screen flex flex-col">
             <SplashScreen/>
             <Head>
-                <title>Anime Workout Program App</title>
+                <title>Anime Workout Program - Train Like Anime Characters, OnePunchMan, Goku and More</title>
+                <meta name="description" content="Anime workouts, train like onepunchman, deku, asta and many more. 33+ unique character specific workouts for beginners, advanced and pro's. Get in shape with the Anime Workout Program App." />
                 <link rel="manifest" href="/manifest.json" />
                 <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
                 <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
@@ -72,7 +73,7 @@ export default function Desktop() {
             <div className="h-screen flex flex-col bg-sexyblue" id="waves">
                 <div className="flex flex-1">
                     <div className="flex-1 flex justify-end items-center flex-col px-20 -mb-16 z-10">
-                        <p className="text-5xl text-gray-100 font-medium text-center p-10">Train Like Anime Characters</p>
+                        <h1 className="text-5xl text-gray-100 font-medium text-center p-10">Train Like Anime Characters</h1>
                         <p className="text-gray-200">Izuku Midoriya • OnePunchMan • Goku • Bakugo • Naruto</p>
                         <p className="text-gray-200 text-sm">and so many more...</p>
                         <div className="flex">
@@ -121,7 +122,7 @@ export default function Desktop() {
                     <p className="text-lg text-gray-700 font-medium">WHY EVEN BOTHER?</p>
                     <span className="w-8 h-px bg-gray-700 mt-3.5 mx-2"></span>
                 </div>
-                <p className="text-5xl font-semibold p-4 text-gray-700">FEATURES</p>
+                <h2 className="text-5xl font-semibold p-4 text-gray-700">FEATURES</h2>
                 <div className="h-96 flex px-32 w-full">
                     <div className="flex-1 h-full p-10">
                         <div className="w-full h-full shadow flex flex-col rounded items-center justify-center p-5">
@@ -164,7 +165,7 @@ export default function Desktop() {
                     <p className="text-lg text-gray-700 font-medium">WHAT WE HAVE?</p>
                     <span className="w-8 h-px bg-gray-700 mt-3.5 mx-2"></span>
                 </div>
-                <p className="text-5xl font-semibold p-4 text-gray-700">CHARACTERS</p>
+                <h2 className="text-5xl font-semibold p-4 text-gray-700">CHARACTERS</h2>
                 <div className="flex w-full h-full overflow-hidden">
                     <div className="flex-1 border-r flex flex-col items-end overflow-auto no-scrollbar">
                         {characters.map((character, index) => (
@@ -183,7 +184,7 @@ export default function Desktop() {
                     <p className="text-lg text-gray-700 font-medium">WHAT WE ACHIEVED</p>
                     <span className="w-8 h-px bg-gray-700 mt-3.5 mx-2"></span>
                 </div>
-                <p className="text-5xl font-semibold p-4 text-gray-700">STATS</p>
+                <h2 className="text-5xl font-semibold p-4 text-gray-700">STATS</h2>
                 <div className="h-72 flex px-64 w-full">
                     <div className="flex-1 p-10 flex">
                         <div className="flex-1 border flex p-5">

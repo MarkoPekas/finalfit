@@ -152,7 +152,7 @@ export default function Home() {
       </main>
 
       <footer className="fixed bottom-0 flex items-center justify-center w-full border-t bg-white dark:bg-sexy dark:border-black">
-        <Link href="/">
+        <Link href="/mobile">
           <div className="flex-1 flex justify-center">
             <HomeIcon className="h-8 w-8 text-gray-500 my-5 dark:text-gray-50" />
           </div>
