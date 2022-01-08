@@ -70,7 +70,6 @@ export default function Mobile() {
 
   return (
     <div className="flex flex-col items-center justify-center py-2 dark:bg-sexy">
-        <SplashScreen/>
       <Head>
         <title>Anime Workout Program</title>
         <meta charset='utf-8' />

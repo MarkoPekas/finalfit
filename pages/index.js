@@ -2,6 +2,7 @@ import Mobile from "./mobile";
 import Desktop from "./desktop";
 import { isMobile } from "react-device-detect";
 import { useEffect, useState } from "react";
+import SplashScreen from "../components/splashScreen";
 export default function Home(){
   const [phoneismaybe, setPhone] = useState(false);
   useEffect(() => {
@@ -9,5 +10,5 @@ export default function Home(){
       setPhone(true);
     }
   }, []);
-  return(phoneismaybe?<Mobile/>:<Desktop/>)
+  return(phoneismaybe?<div><SplashScreen/><Mobile/></div>:<div><SplashScreen/><Desktop/></div>)
 }

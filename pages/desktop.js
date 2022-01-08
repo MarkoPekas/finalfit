@@ -39,7 +39,6 @@ export default function Desktop() {
 
     return (
         <div className="w-full min-h-screen flex flex-col">
-            <SplashScreen/>
             <Head>
                 <title>Anime Workout Program - Train Like Anime Characters, OnePunchMan, Goku and More</title>
                 <meta name="description" content="Anime workouts, train like onepunchman, deku, asta and many more. 33+ unique character specific workouts for beginners, advanced and pro's. Get in shape with the Anime Workout Program App." />
