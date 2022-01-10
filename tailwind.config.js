@@ -6,6 +6,7 @@ module.exports = {
       textColor: {
         'sexy': '#66F',
       },
+      
       backgroundColor: {
         'sexy': '#121212',
         'sexyblue': '#66f',
@@ -18,6 +19,8 @@ module.exports = {
         '3000': '3000ms',
        }
     },
+    fontFamily: {
+    }
   },
   variants: {
     extend: {},

@@ -41,6 +41,7 @@ export default function Mobile() {
 
   let workouts = jsondata.characters[data].workout;
   let wrows = [];
+  if(data!=="noone"){
   for (let i = 0; i < workouts.length; i++){
     wrows.push(
       <div className="w-24 inline-block m-2 bg-center bg-cover ">
@@ -53,6 +54,7 @@ export default function Mobile() {
       </div>
     );
   }
+}
   useEffect(() => {
     if(data == "noone") {
       document.getElementById("overlay").style.display = "none";

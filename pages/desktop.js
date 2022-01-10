@@ -84,13 +84,12 @@ export default function Desktop() {
                                 <a href='https://play.google.com/store/apps/details?id=app.netlify.silly_hopper_af3a11.twa&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
                             </motion.div>
                             <div className="w-60 p-4">
-                                <motion.div className="rounded cursor-pointer text-gray-100 flex justify-center items-center text-lg border-2 w-full h-full" 
+                                <motion.a href="/training/discover" className="rounded cursor-pointer text-gray-100 flex justify-center items-center text-lg border-2 w-full h-full" 
                                 whileTap={{
-                                scale: 0.8,
-                                rotate: -180
+                                scale: 0.9
                                 }} whileHover={{ scale: 1.1 }}>
-                                    <p>Explore</p>
-                                </motion.div>
+                                    Try It Out!
+                                </motion.a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +238,7 @@ export default function Desktop() {
                 <p className="text-xl text-gray-800">A Footer And A Disclaimer</p>
                 <p>The Anime Workout Program features materials protected by the Fair Use guidelines of Section 107 of the Copyright Act. All rights reserved to the copyright owners.</p>
                 
-                <a className="text-sexy" href="https://play.google.com/store/apps/details?id=app.netlify.silly_hopper_af3a11.twa">Download The App</a>
+                <p><a className="text-sexy" href="https://play.google.com/store/apps/details?id=app.netlify.silly_hopper_af3a11.twa">Download The App</a> - <a className="text-sexy" href="/training/discover">Try The Desktop Version</a></p>
                 <p className="text-sm">Contact Us: <a href = "mailto: pekasmarko@gmail.com" className="text-sexy">pekasmarko@gmail.com</a></p>
             </footer>
             

@@ -3,6 +3,8 @@
     "todoroki": {
       "name": "Todoroki Workout",
       "img": "/covers/todoroki.jpg",
+      "showid": "myheroacademia",
+      "tags": ["legs", "cardio"],
       "workout": [
         [
           "High Knees",
@@ -69,6 +71,8 @@
     },"bakugo": {
       "name": "Bakugo Workout",
       "img": "/covers/bakugo.png",
+      "showid": "myheroacademia",
+      "tags": ["arms", "core"],
       "workout": [
         [
           "Push Ups",
@@ -147,6 +151,8 @@
     },"ochako": {
       "name": "Ochako Workout",
       "img": "/covers/ochako.jpg",
+      "showid": "myheroacademia",
+      "tags": ["quick", "legs"],
       "workout": [
         [
           "Bicycle Crunches",
@@ -205,6 +211,8 @@
     },"wrath": {
       "name": "Wrath",
       "img": "/covers/wrath.jpg",
+      "showid": "sds",
+      "tags": ["fullbody", "cardio"],
       "workout": [
         [
           "Jumping jacks",
@@ -271,6 +279,8 @@
     },"greed": {
       "name": "Greed",
       "img": "/covers/greed.jpg",
+      "showid": "sds",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Jumping Jacks",
@@ -335,6 +345,8 @@
     },"envy": {
       "name": "Envy",
       "img": "/covers/envy.png",
+      "showid": "sds",
+      "tags": ["legs"],
       "workout": [
         [
           "Bicycle Crunches",
@@ -381,6 +393,8 @@
     },"sloth": {
       "name": "Sloth",
       "img": "/covers/sloth.png",
+      "showid": "sds",
+      "tags": ["fullbody"],
       "workout": [
         [
           "High Knees",
@@ -456,6 +470,8 @@
     },"lust": {
       "name": "Lust",
       "img": "/covers/lust.jpg",
+      "showid": "sds",
+      "tags": ["fullbody", "quick"],
       "workout": [
         [
           "Lunges",
@@ -503,27 +519,11 @@
           "reps"
         ]
       ]
-    },"bakugo2": {
-      "name": "Todoroki Workout",
-      "img": "/covers/todoroki.jpg",
-      "workout": [
-        [
-          "High Knees",
-          60,
-          "sec"
-        ],[
-          "Mountain Climbers",
-          60,
-          "sec"
-        ],[
-          "High Knees",
-          60,
-          "sec"
-        ]
-      ]
     },"gluttony": {
       "name": "Gluttony",
       "img": "/covers/gluttony.jpg",
+      "showid": "sds",
+      "tags": ["fullbody", "quick"],
       "workout": [
         [
           "Hamstring Stretch",
@@ -566,6 +566,8 @@
     },"pride": {
       "name": "Pride",
       "img": "/covers/pride.png",
+      "showid": "sds",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Wide Grip Push Ups",
@@ -612,6 +614,8 @@
     },"naruto": {
       "name": "Naruto",
       "img": "/covers/naruto.jpg",
+      "showid": "naruto",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Push Ups",
@@ -706,6 +710,8 @@
     },"sakura": {
       "name": "Sakura",
       "img": "/covers/sakura.jpg",
+      "showid": "naruto",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Knee Push Ups",
@@ -762,6 +768,8 @@
     },"sasuke": {
       "name": "Sasuke",
       "img": "/covers/sasuke.jpg",
+      "showid": "naruto",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Push Ups",
@@ -810,6 +818,8 @@
     },"kakashi": {
       "name": "Kakashi",
       "img": "/covers/kakashi.jpg",
+      "showid": "naruto",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Wide Grip Push Ups",
@@ -862,6 +872,8 @@
     },"rocklee": {
       "name": "Rock Lee",
       "img": "/covers/rocklee.png",
+      "showid": "naruto",
+      "tags": ["arms", "chest"],
       "workout": [
         [
           "Wide Grip Push Ups",
@@ -908,6 +920,8 @@
     },"hinata": {
       "name": "Hinata",
       "img": "/covers/hinata.webp",
+      "showid": "haikyuu",
+      "tags": ["legs", "cardio"],
       "workout": [
         [
           "Jumping Jacks",
@@ -958,6 +972,8 @@
     },"kageyama": {
       "name": "Kageyama",
       "img": "/covers/kageyama.jpg",
+      "showid": "haikyuu",
+      "tags": ["legs"],
       "workout": [
         [
           "Jumping Jacks",
@@ -1012,6 +1028,8 @@
     },"bleach": {
       "name": "Bleach",
       "img": "/covers/bleach.jpg",
+      "showid": "bleach",
+      "tags": ["arms", "legs", "cardio"],
       "workout": [
         [
           "Squats",
@@ -1062,6 +1080,8 @@
     },"mikasa": {
       "name": "Mikasa",
       "img": "/covers/mikasa.png",
+      "showid": "aot",
+      "tags": ["quick", "fullbody"],
       "workout": [
         [
           "Jumping Jacks",
@@ -1106,6 +1126,8 @@
     },"ippo": {
       "name": "Ippo",
       "img": "/covers/ippo.jpg",
+      "showid": "hni",
+      "tags": ["arms", "chest", "cardio"],
       "workout": [
         [
           "Jumping Jacks",
@@ -1156,6 +1178,8 @@
     },"saiki": {
       "name": "Saiki Kuso",
       "img": "/covers/saiki.png",
+      "showid": "saikikuso",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Squats",
@@ -1210,6 +1234,8 @@
     },"onepunch": {
       "name": "OnePunchMan",
       "img": "/covers/onepunch.png",
+      "showid": "onepunchman",
+      "tags": ["arms", "legs", "core"],
       "workout": [
         [
           "Push Ups",
@@ -1320,51 +1346,8 @@
     },"deku": {
       "name": "ONE FOR ALL",
       "img": "/covers/deku.png",
-      "workout": [
-        [
-          "Jumping Jacks",
-          30,
-          "sec"
-        ],
-        [
-          "Push Ups",
-          10,
-          "reps"
-        ],
-        [
-          "Squats",
-          10,
-          "reps"
-        ],
-        [
-          "Plank",
-          30,
-          "sec"
-        ],
-        [
-          "Jumping Jacks",
-          30,
-          "sec"
-        ],
-        [
-          "Push Ups",
-          10,
-          "reps"
-        ],
-        [
-          "Squats",
-          10,
-          "reps"
-        ],
-        [
-          "Plank",
-          30,
-          "sec"
-        ]
-      ]
-    },"noone": {
-      "name": "ONE FOR ALL",
-      "img": "/covers/deku.png",
+      "showid": "myheroacademia",
+      "tags": ["arms", "legs", "core"],
       "workout": [
         [
           "Jumping Jacks",
@@ -1410,6 +1393,8 @@
     },"goku": {
       "name": "SUPER SAIYAN",
       "img": "/covers/goku.png",
+      "showid": "dragonballz",
+      "tags": ["legs", "quick"],
       "workout": [
         [
           "Squats",
@@ -1445,6 +1430,8 @@
     },"demonslayer": {
       "name": "DEMON SLAYER",
       "img": "/covers/demonslayer.png",
+      "showid": "demonslayer",
+      "tags": ["arms", "legs", "quick"],
       "workout": [
         [
           "High Knees",
@@ -1485,6 +1472,8 @@
     },"aot": {
       "name": "AOT",
       "img": "/covers/aot.png",
+      "showid": "aot",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Jumping Jacks",
@@ -1568,6 +1557,8 @@
     },"hunter": {
       "name": "HUNTER X HUNTER",
       "img": "/covers/hunter.png",
+      "showid": "hunterxhunter",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Push Ups",
@@ -1608,6 +1599,8 @@
     },"onepiece": {
       "name": "ONE PIECE",
       "img": "/covers/onepiece.png",
+      "showid": "onepiece",
+      "tags": ["fullbody"],
       "workout": [
         [
           "Hamstring Stretch",
@@ -1654,6 +1647,8 @@
     },"jojo": {
       "name": "JOJO'S BIZARRE WORKOUT",
       "img": "/covers/jojo.png",
+      "showid": "jojosbizarreadventure",
+      "tags": ["core", "arms"],
       "workout": [
         [
           "Mountain Climbers",
@@ -1733,6 +1728,8 @@
     },"baki": {
       "name": "Baki The Grappler",
       "img": "/covers/baki.jpg",
+      "showid": "bakithegrappler",
+      "tags": ["fullbody", "chest", "arms"],
       "workout": [
         [
           "Squats",
@@ -1844,6 +1841,8 @@
     },"asta": {
       "name": "Asta",
       "img": "/covers/asta.jpg",
+      "showid": "blackclover",
+      "tags": ["core", "chest", "arms", "legs"],
       "workout": [
         [
           "Push Ups",
@@ -1971,6 +1970,8 @@
           "reps"
         ]
       ]
+    },"noone": {
+      
     }
   }
 }
