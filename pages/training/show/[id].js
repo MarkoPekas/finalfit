@@ -89,9 +89,11 @@ export default function Home(req) {
                         return(jsondata.characters[character].showid === router.query.id ?
                         <div className="w-1/2 lg:w-1/3 xl:w-1/4 flex h-56 p-5">
                             <Link href={`/training/routine/${character}`} >
-                                <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="w-full cursor-pointer h-full rounded p-3 bg-cover bg-center" style={{backgroundImage: `url(${jsondata.characters[character].img})`}}>
-                                    <p className="text-white text-xl font-medium">{jsondata.characters[character].name}</p>
-                                </motion.div>
+                                <a className="w-full">
+                                    <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="w-full cursor-pointer h-full rounded p-3 bg-cover bg-center" style={{backgroundImage: `url(${jsondata.characters[character].img})`}}>
+                                        <p className="text-white text-xl font-medium">{jsondata.characters[character].name}</p>
+                                    </motion.div>
+                                </a>
                             </Link>
                         </div>:null
                     )})}

@@ -57,10 +57,12 @@ export default function PcNavItemBig(props) {
     }
     return (
         <Link href={props.link}>
+            <a>
             <motion.div whileHover={{scale: 1.05}} whileTap={{scale: 0.9}} className="rounded-xl cursor-pointer transition-colors hover:text-blue-500 hover:bg-blue-100 text-gray-500 p-2 flex">
                 {icons[props.icon]}
                 <p className="font-medium px-2">{props.name}</p>
             </motion.div>
+            </a>
         </Link>
     )
 }
