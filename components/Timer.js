@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useState } from "react/cjs/react.development"
+import { useEffect, useState } from "react";
 
 export default function Timer(props){
     const [count, setCount] = useState(props.from);
