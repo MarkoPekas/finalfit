@@ -59,7 +59,7 @@ export default function Home(req) {
                 <h3 className="text-lg px-10 text-gray-600">{descriptions[router.query.id]}</h3>
                 <div className="w-full flex flex-wrap">
                     {characters.map((character) => {
-                        return(jsondata.characters[character].tags.includes(router.query.id) ?
+                        return(jsondata.characters[character].tags.includes(req.query.id) ?
                         <div className="w-1/2 lg:w-1/3 xl:w-1/4 flex h-56 p-5">
                             <Link href={`/training/routine/${character}`} >
                                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="w-full cursor-pointer h-full rounded p-3 bg-cover bg-center" style={{backgroundImage: `url(${jsondata.characters[character].img})`}}>
