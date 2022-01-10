@@ -1971,7 +1971,12 @@
         ]
       ]
     },"noone": {
-      
+      "name": "Asta",
+      "img": "/covers/asta.jpg",
+      "showid": "",
+      "tags": [],
+      "workout": [
+      ]
     }
   }
 }
