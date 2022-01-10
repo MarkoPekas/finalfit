@@ -50,16 +50,16 @@ export default function Home(req) {
         <div className="w-full h-screen flex">
             <Head>
                 <title>Discover Anime Inspired Workouts - OnePunchMan, Goku, All Might & many more</title>
-                <meta name="description" content={`${descriptions[router.query.id]} Become stronger with the help of anime.`} />
+                <meta name="description" content={`${descriptions[req.id]} Become stronger with the help of anime.`} />
             </Head>
             <PcNav />
             <div className="flex-1 overflow-auto">
                 <h1 className="text-3xl p-5 px-10 font-medium text-gray-800">Anime Workout Program</h1>
-                <h2 className="text-xl px-10 font-medium text-gray-600">{titles[router.query.id]}</h2>
-                <h3 className="text-lg px-10 text-gray-600">{descriptions[router.query.id]}</h3>
+                <h2 className="text-xl px-10 font-medium text-gray-600">{titles[req.id]}</h2>
+                <h3 className="text-lg px-10 text-gray-600">{descriptions[req.id]}</h3>
                 <div className="w-full flex flex-wrap">
                     {characters.map((character) => {
-                        return(jsondata.characters[character].tags.includes(req.query.id) ?
+                        return(jsondata.characters[character].tags.includes(req.id) ?
                         <div className="w-1/2 lg:w-1/3 xl:w-1/4 flex h-56 p-5">
                             <Link href={`/training/routine/${character}`} >
                                 <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} className="w-full cursor-pointer h-full rounded p-3 bg-cover bg-center" style={{backgroundImage: `url(${jsondata.characters[character].img})`}}>
