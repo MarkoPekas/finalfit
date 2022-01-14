@@ -84,8 +84,7 @@ export default function Home() {
           <h1 className="font-semibold text-2xl text-white my-1">Reset Progress</h1>
         </div>
         
-        <p className="text-lg dark:text-white mt-10 mx-5">Hey, it's Mr.Developer here. Some of you might be mad at me for adding such horrific ads to the app but please hear me out.</p>
-        <p className="dark:text-white mx-5">Until i get accepted by adsense these ads will have to pass. In order to keep the app file size low (below 3MB) modern technology was used and that technology comes at a price. If the ads really bother you please contact me (email can be found on app download page) and I'll see what i can do to help you out (and remove your ads 😉)</p>
+        <p className="text-lg dark:text-white mt-10 mx-5">No more ads for now 😉</p>
 
 
         <div className="h-20 w-full"></div>

@@ -49,7 +49,7 @@ export default function Home(req) {
     return(
         <div className="w-full h-screen flex">
             <Head>
-                <title>Discover Anime Inspired Workouts - OnePunchMan, Goku, All Might & many more</title>
+                <title>Discover Anime Inspired Workouts - {titles[req.id]}</title>
                 <meta name="description" content={`${descriptions[req.id]} Become stronger with the help of anime.`} />
             </Head>
             <PcNav />

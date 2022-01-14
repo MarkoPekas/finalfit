@@ -76,7 +76,7 @@ export default function Home(req) {
     return(
         <div className="w-full h-screen flex">
             <Head>
-                <title>Discover Anime Inspired Workouts - OnePunchMan, Goku, All Might & many more</title>
+                <title>{titles[router.query.id]} Workout Routines - Anime Inspired Training & Workout Routines</title>
                 <meta name="description" content={`${descriptions[router.query.id]} Become stronger with the help of anime. ${titles[router.query.id]} inspired workouts.`} />
             </Head>
             <PcNav />
