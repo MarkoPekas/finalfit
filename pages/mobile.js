@@ -80,7 +80,7 @@ export default function Mobile() {
         <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
         <meta name='description' content='Description' />
         <meta name='keywords' content='Keywords' />
-        <script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4526960"></script>
+        {*/<script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=4526960"></script>*/}
         <link rel="manifest" href="/manifest.json" />
         <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
