@@ -77,6 +77,7 @@ export default function Mobile() {
         <meta charset='utf-8' />
         {/*<meta name="propeller" content="ef25037abe9cb22da116e5fe63813b98" />*/}
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
         <meta name='description' content='Description' />
         <meta name='keywords' content='Keywords' />
