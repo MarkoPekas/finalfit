@@ -47,6 +47,7 @@ export default function Desktop() {
                 <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
                 <meta name="theme-color" content="#66f"/>
+                <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <div className="w-full px-10 backdrop-filter z-20 backdrop-blur transition-colors flex fixed">
                 <div className={`h-20  border-b flex-1 flex overflow-hidden transition-colors items-center ${navColor==="white"?'text-gray-800':'text-white'}`}>
