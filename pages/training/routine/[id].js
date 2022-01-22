@@ -77,6 +77,7 @@ export default function Home(req) {
             <Head>
                 <title>The {router.query.id} workout - How did they train? Anime Workouts</title>
                 <meta name="description" content={`Discover the ${router.query.id} workout. Training inspired by the show ${titles[jsondata.characters[router.query.id].showid]}. Discover their routines and become strong.`} />
+                <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <div className="flex-1 flex flex-col">
                 <motion.div whileHover="hover" initial="rest" className="flex p-5">
