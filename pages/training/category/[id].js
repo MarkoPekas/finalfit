@@ -51,6 +51,7 @@ export default function Home(req) {
             <Head>
                 <title>Discover Anime Inspired Workouts - {titles[req.id]}</title>
                 <meta name="description" content={`${descriptions[req.id]} Become stronger with the help of anime.`} />
+                <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <PcNav />
             <div className="flex-1 overflow-auto">
