@@ -12,7 +12,12 @@ export default function Discover() {
             <Head>
                 <title>Discover Anime Inspired Workouts - OnePunchMan, Goku, All Might & many more</title>
                 <meta name="description" content="Anime workout training, anime-inspired workouts from characters like Goku, OnePunchMan, All Might, Asta, Baki and many more. Become stronger with the help of anime." />
-
+                <link rel="manifest" href="/manifest.json" />
+                <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
+                <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
+                <meta name="theme-color" content="#66f"/>
+                <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <PcNav />
             <div className="flex-1 overflow-auto">
