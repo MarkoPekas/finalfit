@@ -78,6 +78,11 @@ export default function Home(req) {
             <Head>
                 <title>{titles[router.query.id]} Workout Routines - Anime Inspired Training & Workout Routines</title>
                 <meta name="description" content={`${descriptions[router.query.id]} Become stronger with the help of anime. ${titles[router.query.id]} inspired workouts.`} />
+                <link rel="manifest" href="/manifest.json" />
+                <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
+                <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
+                <meta name="theme-color" content="#66f"/>
                 <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <PcNav />
