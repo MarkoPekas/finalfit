@@ -78,6 +78,7 @@ export default function Home(req) {
             <Head>
                 <title>{titles[router.query.id]} Workout Routines - Anime Inspired Training & Workout Routines</title>
                 <meta name="description" content={`${descriptions[router.query.id]} Become stronger with the help of anime. ${titles[router.query.id]} inspired workouts.`} />
+                <script data-ad-client="ca-pub-7404737595748283" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
             <PcNav />
             <div className="flex-1 overflow-auto">
