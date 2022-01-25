@@ -8,6 +8,7 @@ import { useEffect } from 'react'
 import jsondata from "./data.json"
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import AdSense from 'react-adsense';
 
 export default function Home() {
   const router = useRouter()

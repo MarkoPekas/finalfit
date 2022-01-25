@@ -5,6 +5,7 @@ import { ChartBarIcon } from '@heroicons/react/outline'
 import { CogIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import AdSense from 'react-adsense';
 
 export default function Home() {
   if (typeof window !== "undefined") {

@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { Switch } from '@headlessui/react'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import AdSense from 'react-adsense';
 
 
 export default function Home() {
