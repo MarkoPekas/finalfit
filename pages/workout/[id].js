@@ -134,7 +134,6 @@ export default function Home(req) {
         <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
         <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
-        <meta name="theme-color" content="#66f"/>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNYXCDJ3TQ"></script>
 <script
