@@ -149,10 +149,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"https://thedailybounce.net/wp-content/uploads/2020/06/BG-1024x432.png"})`}} onClick={()=>adClick()} >
-          <h1 className="font-semibold text-2xl text-white mt-3">Try This New Game</h1>
-          <p className="text-base text-white">Sponsored</p>
-        </div>
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='8781015757'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Amateur</h1>
@@ -179,10 +182,13 @@ export default function Home() {
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/jojo.png"})`}} onClick={()=>setData("jojo")} >
           <h1 className="font-semibold text-2xl text-white my-3">Jojo's Bizzare Workout</h1>
         </div>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"https://wowsp-wows-sg.wgcdn.co/static/0.2/images/wows_social_1.jpg"})`}} onClick={()=>adClick()} >
-          <h1 className="font-semibold text-2xl text-white mt-3">Play For Free</h1>
-          <p className="text-base text-white">Sponsored</p>
-        </div>
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='8781015757'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Elite</h1>
         <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/baki.jpg"})`}} onClick={()=>setData("baki")} >

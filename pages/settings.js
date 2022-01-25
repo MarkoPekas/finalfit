@@ -84,8 +84,13 @@ export default function Home() {
           <h1 className="font-semibold text-2xl text-white my-1">Reset Progress</h1>
         </div>
         
-        <p className="text-lg dark:text-white mt-10 mx-5">No more ads for now 😉</p>
-
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='2734482151'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
         <div className="h-20 w-full"></div>
       </main>

@@ -11,6 +11,7 @@ import { useRouter } from 'next/router'
 import { register, unregister } from 'next-offline/runtime';
 import { isMobile } from 'react-device-detect';
 import SplashScreen from '../components/splashScreen'
+import AdSense from 'react-adsense';
 
 
 
@@ -182,7 +183,13 @@ export default function Mobile() {
 
         </div>
 
-
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='2926053845'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">The Seven Deadly Sins</h1>
         <div className="w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap">
@@ -223,19 +230,6 @@ export default function Mobile() {
           </div>
         </div>
 
-        
-        <div className="w-80 h-32 mt-10 inline-block">
-          <div className="h-full w-full flex-col flex">
-            <div className="flex-1 flex p-2" onClick={()=>adClick()} >
-              <div className="h-full w-28 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"https://images.hdqwalls.com/wallpapers/anime-original-minimalism-p5.jpg"})`}}></div>
-              <div className="flex flex-col justify-center pl-5">
-                <p className="font-semibold text-lg dark:text-gray-50">Try This Cool Game</p>
-                <p className="text-gray-500">Sponsored 😉</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
 
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Popular</h1>
@@ -252,7 +246,13 @@ export default function Mobile() {
         </div>
         
 
-
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='2926053845'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
 
 
@@ -319,18 +319,6 @@ export default function Mobile() {
         </div>
 
 
-        <div className="w-80 h-32 mt-10 inline-block">
-          <div className="h-full w-full flex-col flex">
-            <div className="flex-1 flex p-2" onClick={()=>adClick()} >
-              <div className="h-full w-28 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"https://wallpapercave.com/wp/wp5165681.jpg"})`}}></div>
-              <div className="flex flex-col justify-center pl-5">
-                <p className="font-semibold text-lg dark:text-gray-50">This Game is Insane</p>
-                <p className="text-gray-500">Sponsored 😲</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Haikyuu!!</h1>
         <div className="w-full flex h-32">
@@ -348,7 +336,13 @@ export default function Mobile() {
         </div>
 
       
-
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='2926053845'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
 
 
 

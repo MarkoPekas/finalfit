@@ -96,7 +96,13 @@ export default function Home() {
               <p className="font-semibold text-sm text-gray-900 dark:text-gray-50">squats</p>            </div>
           </div>
         </div>
-
+        <AdSense.Google
+          client='ca-pub-7404737595748283'
+          slot='8781015757'
+          style={{ display: 'block' }}
+          layout='in-article'
+          format='fluid'
+        />
         <h1 className="font-semibold text-2xl text-center my-3 text-gray-800 dark:text-gray-50">Achievements</h1>
         <div className="p-5">
           <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-6 p-5 mb-5" style={{backgroundImage: `url(${"/covers/s2.png"})`}}>
