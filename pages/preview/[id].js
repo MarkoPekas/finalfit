@@ -90,7 +90,7 @@ export default function Preview(req) {
             <div className="flex px-5 py-2">
             {jsondata.characters[req.id].tags.map((tag, index) => {
                 return(
-                    <div className="flex justify-center px-5 py-2 bg-gray-100 rounded-xl">
+                    <div className="flex justify-center px-5 py-2 bg-gray-100 rounded-xl m-1">
                         <p className="text-xs font-medium text-gray-700">{tag}</p>
                     </div>
                 )
