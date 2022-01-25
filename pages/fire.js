@@ -124,27 +124,27 @@ export default function Home() {
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 dark:text-gray-50">Beginner</h1>
 
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/onepunch.png"})`}} onClick={() => setData("onepunch")}>
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/onepunch.png"})`}} onClick={() => router.push("/preview/onepunch")}>
           <h1 className="font-semibold text-2xl text-white my-3">One Punch Man</h1>
         </div>
 
         <div className="w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap mb-5">
-          <div className="w-32 h-32 inline-block m-2 ml-0 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/bleach.jpg"})`}} onClick={()=>setData("bleach")} >
+          <div className="w-32 h-32 inline-block m-2 ml-0 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/bleach.jpg"})`}} onClick={()=>router.push("/preview/bleach")} >
             <div className="w-full h-full flex justify-center items-center">
               <p className="font-semibold text-lg text-white">Bleach</p>
             </div>
           </div>
-          <div className="w-32 h-32 inline-block m-2 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/aot.png"})`}} onClick={()=>setData("aot")} >
+          <div className="w-32 h-32 inline-block m-2 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/aot.png"})`}} onClick={()=>router.push("/preview/aot")} >
             <div className="w-full h-full flex justify-center items-center">
               <p className="font-semibold text-lg text-white">AOT</p>
             </div>
           </div>
-          <div className="w-32 h-32 inline-block m-2 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/goku.png"})`}} onClick={()=>setData("goku")} >
+          <div className="w-32 h-32 inline-block m-2 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/goku.png"})`}} onClick={()=>router.push("/preview/goku")} >
             <div className="w-full h-full flex justify-center items-center">
               <p className="font-semibold text-lg text-white">Goku</p>
             </div>
           </div>
-          <div className="w-32 h-32 inline-block m-2 mr-0 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/mikasa.png"})`}} onClick={()=>setData("mikasa")} >
+          <div className="w-32 h-32 inline-block m-2 mr-0 bg-center bg-cover rounded shadow" style={{backgroundImage: `url(${"/covers/mikasa.png"})`}} onClick={()=>router.push("/preview/mikasa")} >
             <div className="w-full h-full flex justify-center items-center">
               <p className="font-semibold text-lg text-white">Mikasa</p>
             </div>
@@ -160,27 +160,27 @@ export default function Home() {
 
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Amateur</h1>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/demonslayer.png"})`}} onClick={()=>setData("demonslayer")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/demonslayer.png"})`}} onClick={()=>router.push("/preview/demonslayer")} >
           <h1 className="font-semibold text-2xl text-white my-3">Demon Slayer</h1>
         </div>
 
         <div className="flex w-full">
-          <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5 mr-2" style={{backgroundImage: `url(${"/covers/ippo.jpg"})`}} onClick={()=>setData("ippo")} >
+          <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5 mr-2" style={{backgroundImage: `url(${"/covers/ippo.jpg"})`}} onClick={()=>router.push("/preview/ippo")} >
             <h1 className="font-semibold text-2xl text-white my-3">Ippo</h1>
           </div>
-          <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5 ml-2" style={{backgroundImage: `url(${"/covers/onepiece.png"})`}} onClick={()=>setData("onepiece")} >
+          <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5 ml-2" style={{backgroundImage: `url(${"/covers/onepiece.png"})`}} onClick={()=>router.push("/preview/onepiece")} >
             <h1 className="font-semibold text-2xl text-white my-3">OnePiece</h1>
           </div>
         </div>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/saiki.png"})`}} onClick={()=>setData("saiki")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/saiki.png"})`}} onClick={()=>router.push("/preview/saiki")} >
           <h1 className="font-semibold text-2xl text-white my-3">Saiki Kuso</h1>
         </div>
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Advanced</h1>
         
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/hunter.png"})`}} onClick={()=>setData("hunter")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/hunter.png"})`}} onClick={()=>router.push("/preview/hunter")} >
           <h1 className="font-semibold text-2xl text-white my-3">Hunter x Hunter</h1>
         </div>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/jojo.png"})`}} onClick={()=>setData("jojo")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/jojo.png"})`}} onClick={()=>router.push("/preview/jojo")} >
           <h1 className="font-semibold text-2xl text-white my-3">Jojo's Bizzare Workout</h1>
         </div>
         <AdSense.Google
@@ -192,12 +192,12 @@ export default function Home() {
         />
 
         <h1 className="font-semibold text-xl text-gray-900 my-3 mt-10 dark:text-gray-50">Elite</h1>
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/baki.jpg"})`}} onClick={()=>setData("baki")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5 mb-5" style={{backgroundImage: `url(${"/covers/baki.jpg"})`}} onClick={()=>router.push("/preview/baki")} >
           <h1 className="font-semibold text-2xl text-white my-3 mr-20">Baki The Grappler</h1>
           <p className="text-white">Train like a true professional Mix Martial Artist.</p>
         </div>
 
-        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5" style={{backgroundImage: `url(${"/covers/asta.jpg"})`}} onClick={()=>setData("asta")} >
+        <div className="flex flex-col rounded shadow w-full h-full bg-center bg-cover pt-10 p-5" style={{backgroundImage: `url(${"/covers/asta.jpg"})`}} onClick={()=>router.push("/preview/asta")} >
           <h1 className="font-semibold text-2xl text-white my-3 mr-20">Asta</h1>
           <p className="text-white">Take on the impossible Asta challenge. Attempt to complete 200 pushups, situps and squats.</p>
         </div>
